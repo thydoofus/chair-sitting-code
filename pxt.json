@@ -1,5 +1,5 @@
 {
-    "name": "Chair sitting code",
+    "name": "p5 pong microbit game",
     "description": "",
     "dependencies": {
         "core": "*",

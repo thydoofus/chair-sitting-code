@@ -11,8 +11,9 @@ connected = 0
 bluetooth.startUartService()
 basic.showIcon(IconNames.Square)
 basic.forever(function () {
-    if (connected == 1) {
-        bluetooth.uartWriteNumber(input.rotation(Rotation.Roll))
-        basic.pause(100)
+    if (input.pinIsPressed(TouchPin.P0)) {
+        bluetooth.uartWriteNumber(1)
+    } else {
+        bluetooth.uartWriteNumber(0)
     }
 })
