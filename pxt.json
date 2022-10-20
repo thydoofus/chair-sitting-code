@@ -1,5 +1,5 @@
 {
-    "name": "p5 pong microbit game",
+    "name": "microbit connection p5js test",
     "description": "",
     "dependencies": {
         "core": "*",
